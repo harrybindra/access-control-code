@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "*.txt": "tex",
-        "random": "cpp"
+        "random": "cpp",
+        "thread": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp"
     }
 }

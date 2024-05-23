@@ -1,5 +1,5 @@
 {
-"teltoken":"",
+"teltoken":"hello",
 "chatid":"",
 "lastupdate_id":"",
 "isnegtivetimeoffset":"",
@@ -8,5 +8,7 @@
 "pintrys":"",
 "fingtrys":"",
 "overtrys":"",
-"errorcom":""
+"errorcom":"",
+"ssid":"",
+"pass":""
 }

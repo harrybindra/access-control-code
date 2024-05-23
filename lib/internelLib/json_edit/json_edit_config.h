@@ -1,61 +1,52 @@
+#include <Arduino.h>
+#include <iostream>
 
-void listDir(const char *dirname){}
-void writeFile(const char *path, const char *message){}
-String readFile(const char *path){}
+//  String LSreadFile( String *path) {}
+// void LSlistDir( String *dirname) {}
+// void LSwriteFile( String *path,  String *message) {}
+
+
 class json_edit_config
 {
 private:
     /* data */
 public:
-"teltoken":"",
-"chatid":"",
-"lastupdate_id":"",
-"isnegtivetimeoffset":"",
-"timeoffset":"",
-"setup":"",
-"pintrys":"",
-"fingtrys":"",
-"overtrys":"",
-"errorcom":""
-    GetTelToken(/* args */);
-    SetTelToken(/* args */);
-
-     GetChatId(/* args */);
-    SetChatId(/* args */);
-
-    GetLastUpdateId(/* args */);
-     SetLastUpdateId(/* args */);
-
-     GetIsNegtiveTimeOffset();
-     SetIsNegtiveTimeOffset();
-
+     json_edit_config();
    
+  
 };
+   String GetTelToken(  );
+    void SetTelToken( String data);
 
-json_edit_config::SetTelToken()
-{
-}
-json_edit_config::GetTelToken()
-{
-}
+    String GetChatId(  );
+    void SetChatId( String data);
 
-json_edit_config::GetChatId()
-{
-}
-json_edit_config::SetChatId()
-{
-}
+    String GetLastUpdateId(  );
+    void SetLastUpdateId( String data);
 
-json_edit_config::GetLastUpdateId()
-{
-}
-json_edit_config::SetLastUpdateId()
-{
-}
+    bool GetIsNegtiveTimeOffset(  );
+    void SetIsNegtiveTimeOffset(bool data);
 
-json_edit_config::GetIsNegtiveTimeOffset()
-{
-}
-json_edit_config::SetIsNegtiveTimeOffset()
-{
-}
+    int GetTimeOffset(  );
+    void SetTimeOffset(int data);
+
+    bool GetSetup(  );
+    void SetSetup(bool data);
+
+    int GetPinTrys(  );
+    void SetPinTrys(int data);
+
+    int GetFingTrys(  );
+    void SetFingTrys(int data);
+
+    bool GetOverTrys(  );
+    void SetOverTrys(bool data);
+
+    bool GetErrorCom(  );
+    void SetErrorCom(bool data);
+
+    String GetSsid(  );
+    void SetSsid( String data);
+
+     String GetPass(  );
+    void SetPass( String data);
