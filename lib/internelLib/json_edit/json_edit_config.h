@@ -12,13 +12,9 @@ private:
     /* data */
 public:
      json_edit_config();
-   
-  
-};
-   String GetTelToken(  );
+      String GetTelToken(  );
     void SetTelToken( String data);
-
-    String GetChatId(  );
+   String GetChatId(  );
     void SetChatId( String data);
 
     String GetLastUpdateId(  );
@@ -50,3 +46,7 @@ public:
 
      String GetPass(  );
     void SetPass( String data);
+};
+
+
+   
